@@ -135,7 +135,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="cf6ff314-c2a7-fe19-74ae-ca66b1062d53"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="ca0b8834-f7d4-bcda-2127-d199bc08ead0"/>
 <plain>
 <wire x1="0" y1="0" x2="21.336" y2="0" width="0" layer="20"/>
 <wire x1="21.336" y1="0" x2="21.336" y2="25.4" width="0" layer="20"/>
@@ -6521,6 +6521,9 @@
 <text x="1.3208" y="22.4409" size="1.778" layer="25">+</text>
 <text x="6.5913" y="22.6822" size="1.778" layer="25">-</text>
 <text x="6.6929" y="1.397" size="1.778" layer="25">-</text>
+<text x="3.6957" y="6.6802" size="1.016" layer="25">PWR</text>
+<text x="15.1003" y="0.7366" size="1.016" layer="25">DIM</text>
+<text x="5.1562" y="17.8054" size="1.016" layer="25">LED</text>
 </plain>
 <libraries>
 <library name="texas" urn="urn:adsk.eagle:library:387">
