@@ -6524,6 +6524,7 @@
 <text x="3.6957" y="6.6802" size="1.016" layer="25">PWR</text>
 <text x="15.1003" y="0.7366" size="1.016" layer="25">DIM</text>
 <text x="5.1562" y="17.8054" size="1.016" layer="25">LED</text>
+<text x="2.667" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">U3</text>
 </plain>
 <libraries>
 <library name="texas" urn="urn:adsk.eagle:library:387">
@@ -6949,7 +6950,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" package="DBZ_R-PDSO-G3" value="LM4041A12DBZ" x="4.699" y="10.287" smashed="yes">
+<element name="U3" library="texas" library_urn="urn:adsk.eagle:library:387" package="DBZ_R-PDSO-G3" value="LM4041A12DBZ" x="4.699" y="10.287" smashed="yes">
 <attribute name="MF" value="" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LM4041A12IDBZR" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1407949" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
@@ -7004,7 +7005,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R4" pad="1"/>
 <contactref element="J3" pad="1"/>
-<contactref element="IC1" pad="1"/>
+<contactref element="U3" pad="1"/>
 <wire x1="3.81" y1="15.66" x2="3.81" y2="9.2202" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="9.2202" x2="3.749" y2="9.187" width="0.1524" layer="1"/>
 <wire x1="4.191" y1="9.2202" x2="3.8862" y2="9.2202" width="0.1524" layer="1"/>
@@ -7015,7 +7016,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND" class="1">
 <contactref element="J3" pad="3"/>
-<contactref element="IC1" pad="2"/>
+<contactref element="U3" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$2" pad="4"/>
 <contactref element="J1" pad="2"/>

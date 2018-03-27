@@ -3,7 +3,7 @@
 <eagle version="8.6.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -6525,7 +6525,7 @@
 <text x="15.1003" y="0.7366" size="1.016" layer="25">DIM</text>
 <text x="5.1562" y="17.8054" size="1.016" layer="25">LED</text>
 <text x="2.667" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">U3</text>
-<text x="12.7127" y="17.6403" size="1.778" layer="52" rot="MR270">CECFC</text>
+<text x="12.9667" y="16.2941" size="1.778" layer="22" rot="MR270">CECFC</text>
 </plain>
 <libraries>
 <library name="texas" urn="urn:adsk.eagle:library:387">
