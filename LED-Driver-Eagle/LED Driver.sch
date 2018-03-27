@@ -3146,7 +3146,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="PTH4" package3d_urn="urn:adsk.eagle:package:38054/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
-<part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="LM4041" device="DBZ" technology="A12"/>
+<part name="U3" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="LM4041" device="DBZ" technology="A12"/>
 </parts>
 <sheets>
 <sheet>
@@ -3179,7 +3179,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <instance part="J1" gate="G$1" x="-17.78" y="33.02" rot="MR180"/>
 <instance part="J2" gate="G$1" x="66.04" y="63.5" rot="R180"/>
 <instance part="J3" gate="J$1" x="25.4" y="58.42" rot="R180"/>
-<instance part="IC1" gate="G$1" x="7.62" y="58.42" smashed="yes">
+<instance part="U3" gate="G$1" x="7.62" y="58.42" smashed="yes">
 <attribute name="NAME" x="0.254" y="60.325" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-14.986" y="57.531" size="1.778" layer="96"/>
 </instance>
@@ -3212,7 +3212,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="J3" gate="J$1" pin="1"/>
 <wire x1="7.62" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="C"/>
+<pinref part="U3" gate="G$1" pin="C"/>
 <junction x="7.62" y="60.96"/>
 </segment>
 </net>
@@ -3222,7 +3222,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="7.62" y1="53.34" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="J3" gate="J$1" pin="3"/>
-<pinref part="IC1" gate="G$1" pin="A"/>
+<pinref part="U3" gate="G$1" pin="A"/>
 <junction x="7.62" y="55.88"/>
 </segment>
 <segment>

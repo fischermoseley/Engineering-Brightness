@@ -3777,9 +3777,6 @@ CONN_03
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Power" width="0.381" drill="0.381">
-<clearance class="1" value="0.2032"/>
-</class>
 </classes>
 <parts>
 <part name="U$1" library="CECFC" deviceset="SI4712" device="DY"/>
@@ -3836,7 +3833,7 @@ CONN_03
 <busses>
 </busses>
 <nets>
-<net name="VCC" class="1">
+<net name="VCC" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -3865,7 +3862,7 @@ CONN_03
 <wire x1="7.62" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -3910,7 +3907,7 @@ CONN_03
 <wire x1="43.18" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="1">
+<net name="N$4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D"/>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -3918,7 +3915,7 @@ CONN_03
 <wire x1="55.88" y1="60.96" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="1">
+<net name="N$5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="2"/>

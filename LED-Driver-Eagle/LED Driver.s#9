@@ -2890,8 +2890,6 @@ Source: Samtec TSW.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="75.946" y="-45.466" size="3.81" layer="91">Fischer Moseley</text>
-<text x="149.352" y="-46.99" size="3.81" layer="91">A</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="53.34" y="50.8"/>

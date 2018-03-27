@@ -3179,7 +3179,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <instance part="J1" gate="G$1" x="-17.78" y="33.02" rot="MR180"/>
 <instance part="J2" gate="G$1" x="66.04" y="63.5" rot="R180"/>
 <instance part="J3" gate="J$1" x="25.4" y="58.42" rot="R180"/>
-<instance part="IC1" gate="G$1" x="7.62" y="58.42"/>
+<instance part="IC1" gate="G$1" x="7.62" y="58.42" smashed="yes">
+<attribute name="NAME" x="0.254" y="60.325" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-14.986" y="57.531" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
