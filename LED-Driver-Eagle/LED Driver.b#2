@@ -3,7 +3,7 @@
 <eagle version="8.6.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -135,7 +135,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="ca0b8834-f7d4-bcda-2127-d199bc08ead0"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="bf620849-5e47-bcb0-3e1e-9827651a09dc"/>
 <plain>
 <wire x1="0" y1="0" x2="21.336" y2="0" width="0" layer="20"/>
 <wire x1="21.336" y1="0" x2="21.336" y2="25.4" width="0" layer="20"/>
@@ -6525,7 +6525,7 @@
 <text x="15.1003" y="0.7366" size="1.016" layer="25">DIM</text>
 <text x="5.1562" y="17.8054" size="1.016" layer="25">LED</text>
 <text x="2.667" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">U3</text>
-<text x="12.7127" y="17.6403" size="1.778" layer="52" rot="MR270">CECFC</text>
+<text x="12.9667" y="16.2941" size="1.778" layer="22" rot="MR270">CECFC</text>
 </plain>
 <libraries>
 <library name="texas" urn="urn:adsk.eagle:library:387">

@@ -3777,9 +3777,6 @@ CONN_03
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Power" width="0.381" drill="0.381">
-<clearance class="1" value="0.2032"/>
-</class>
 </classes>
 <parts>
 <part name="U$1" library="CECFC" deviceset="SI4712" device="DY"/>

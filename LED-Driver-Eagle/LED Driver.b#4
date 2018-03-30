@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -135,7 +135,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="456df4e9-e58e-c762-965b-9fe1c2868686"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjA2ZTQw" projecturn="a.cGVyc29uYWw6dWUyYjA2ZTQwIzIwMTgwMjIzMTE5NDc3OTU2" f3durn="urn:adsk.wipprod:dm.lineage:CXPcsSRXTwSbw_zEyj-MFA" pcbguid="f8d63bc8-81ed-4c37-9df4-4ae1279349d0" lastpulledtime="" lastsyncedchangeguid="ca0b8834-f7d4-bcda-2127-d199bc08ead0"/>
 <plain>
 <wire x1="0" y1="0" x2="21.336" y2="0" width="0" layer="20"/>
 <wire x1="21.336" y1="0" x2="21.336" y2="25.4" width="0" layer="20"/>
@@ -4219,9 +4219,9 @@
 <rectangle x1="-0.00635" y1="4.56565" x2="14.39545" y2="4.57835" layer="201"/>
 <rectangle x1="-0.00635" y1="4.57835" x2="14.39545" y2="4.59105" layer="201"/>
 <rectangle x1="-0.00635" y1="4.59105" x2="14.39545" y2="4.60375" layer="201"/>
-<text x="12.6746" y="17.9451" size="0.6096" layer="22" rot="MR270">Engineering Brightness</text>
-<text x="11.5443" y="15.4051" size="0.6096" layer="22" rot="MR270">LED Driver</text>
-<text x="10.6172" y="15.3035" size="0.6096" layer="22" rot="MR270">Revision B</text>
+<text x="10.3886" y="17.6149" size="0.6096" layer="22" rot="MR270">Engineering Brightness</text>
+<text x="9.2583" y="15.0749" size="0.6096" layer="22" rot="MR270">LED Driver</text>
+<text x="8.3312" y="14.9733" size="0.6096" layer="22" rot="MR270">Revision B</text>
 <polygon width="0.0000125" layer="22">
 <vertex x="0.001159375" y="-0.005075"/>
 <vertex x="0.002246875" y="-0.004959375"/>
@@ -6524,6 +6524,8 @@
 <text x="3.6957" y="6.6802" size="1.016" layer="25">PWR</text>
 <text x="15.1003" y="0.7366" size="1.016" layer="25">DIM</text>
 <text x="5.1562" y="17.8054" size="1.016" layer="25">LED</text>
+<text x="2.667" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R90">U3</text>
+<text x="12.7127" y="17.6403" size="1.778" layer="52" rot="MR270">CECFC</text>
 </plain>
 <libraries>
 <library name="texas" urn="urn:adsk.eagle:library:387">
@@ -6949,7 +6951,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" package="DBZ_R-PDSO-G3" value="LM4041A12DBZ" x="4.699" y="10.287" smashed="yes">
+<element name="U3" library="texas" library_urn="urn:adsk.eagle:library:387" package="DBZ_R-PDSO-G3" value="LM4041A12DBZ" x="4.699" y="10.287" smashed="yes">
 <attribute name="MF" value="" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LM4041A12IDBZR" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1407949" x="4.699" y="10.287" size="1.778" layer="27" display="off"/>
@@ -7004,7 +7006,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="R4" pad="1"/>
 <contactref element="J3" pad="1"/>
-<contactref element="IC1" pad="1"/>
+<contactref element="U3" pad="1"/>
 <wire x1="3.81" y1="15.66" x2="3.81" y2="9.2202" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="9.2202" x2="3.749" y2="9.187" width="0.1524" layer="1"/>
 <wire x1="4.191" y1="9.2202" x2="3.8862" y2="9.2202" width="0.1524" layer="1"/>
@@ -7015,7 +7017,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND" class="1">
 <contactref element="J3" pad="3"/>
-<contactref element="IC1" pad="2"/>
+<contactref element="U3" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$2" pad="4"/>
 <contactref element="J1" pad="2"/>

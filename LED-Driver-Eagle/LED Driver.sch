@@ -3130,8 +3130,8 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="CECFC" deviceset="SI4712" device="DY"/>
-<part name="U$2" library="CECFC" deviceset="MC33202" device="DR2G"/>
+<part name="M$F" library="CECFC" deviceset="SI4712" device="DY"/>
+<part name="O$A" library="CECFC" deviceset="MC33202" device="DR2G"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.1OHM" device="-1210-1/2W-1%" package3d_urn="urn:adsk.eagle:package:39664/1" value="0.1"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="240k"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1.20KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10K"/>
@@ -3153,12 +3153,12 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="53.34" y="50.8"/>
-<instance part="U$2" gate="G$1" x="35.56" y="48.26" rot="MR180"/>
-<instance part="U$2" gate="G$2" x="35.56" y="33.02" smashed="yes" rot="R180">
+<instance part="M$F" gate="G$1" x="53.34" y="50.8"/>
+<instance part="O$A" gate="G$1" x="35.56" y="48.26" rot="MR180"/>
+<instance part="O$A" gate="G$2" x="35.56" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.116" y="26.67" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="U$2" gate="G$3" x="-2.54" y="25.4"/>
+<instance part="O$A" gate="G$3" x="-2.54" y="25.4"/>
 <instance part="R1" gate="G$1" x="55.88" y="35.56" rot="R90"/>
 <instance part="R2" gate="G$1" x="25.4" y="27.94" rot="R90"/>
 <instance part="R3" gate="G$1" x="25.4" y="17.78" rot="R90"/>
@@ -3195,7 +3195,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="-2.54" y1="33.02" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$3" pin="P$V+"/>
+<pinref part="O$A" gate="G$3" pin="P$V+"/>
 <junction x="-2.54" y="33.02"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
@@ -3233,7 +3233,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$3" pin="P$V-"/>
+<pinref part="O$A" gate="G$3" pin="P$V-"/>
 <wire x1="-2.54" y1="17.78" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-2.54" y="15.24"/>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -3247,7 +3247,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="+IN"/>
+<pinref part="O$A" gate="G$1" pin="+IN"/>
 <pinref part="J3" gate="J$1" pin="2"/>
 <wire x1="17.78" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="58.42" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
@@ -3256,14 +3256,14 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="O$A" gate="G$1" pin="OUT"/>
+<pinref part="M$F" gate="G$1" pin="G"/>
 <wire x1="43.18" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="1">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="M$F" gate="G$1" pin="D"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="60.96" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
@@ -3271,25 +3271,25 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 </net>
 <net name="N$5" class="1">
 <segment>
-<pinref part="U$1" gate="G$1" pin="S"/>
+<pinref part="M$F" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="40.64" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
 <junction x="55.88" y="40.64"/>
-<pinref part="U$2" gate="G$2" pin="+IN"/>
+<pinref part="O$A" gate="G$2" pin="+IN"/>
 <wire x1="48.26" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$2" gate="G$2" pin="OUT"/>
+<pinref part="O$A" gate="G$2" pin="OUT"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
 <junction x="25.4" y="33.02"/>
 <wire x1="20.32" y1="33.02" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="-IN"/>
+<pinref part="O$A" gate="G$1" pin="-IN"/>
 <wire x1="20.32" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3297,7 +3297,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$2" pin="-IN"/>
+<pinref part="O$A" gate="G$2" pin="-IN"/>
 <wire x1="43.18" y1="30.48" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <junction x="25.4" y="22.86"/>
